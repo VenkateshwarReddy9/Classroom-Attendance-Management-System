@@ -23,7 +23,12 @@ The application consists of two DynamoDB tables:
  
 The DynamoDB table for this project will have the following structure:
 
-ClassID	Date	StudentID	Name	Attendance Status
-0001	2023-04-16	0001	John Doe	Present
-0001	2023-04-16	0002	Jane Smith	Absent
-0002	2023-04-16	0003	Alice Brown	Late
+
+| ClassID	|    Date	      |  StudentID	|   Name	     |  Attendance Status  |
+|============================================================================|
+|  0001	  |   2023-04-16	|  0001	      | John Doe 	   |   Present           |
+------------------------------------------------------------------------------
+| 0001    |   2023-04-16  |	 0002	      | Jane Smith	 |    Absent           |
+-----------------------------------------------------------------------------
+|  0002	  |   2023-04-16	|  0003    	  | Alice Brown  |  	Late             |
+|----------------------------------------------------------------------------|
